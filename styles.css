@@ -134,7 +134,7 @@ body {
 }
 
 @media only screen and (max-width: 360px) {
-  .container{
+  .container {
     margin: 0 10px;
   }
   .flex img {
@@ -177,5 +177,22 @@ body {
 
   .co {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 288px) {
+  .description {
+    font-size: 10px;
+  }
+
+  .middle {
+    padding: 15px 7px;
+  }
+
+  .music {
+    width: 35px;
+  }
+  .plan {
+    font-size: 10px;
   }
 }
